@@ -5,6 +5,8 @@ const nextConfig = {
   },
   reactStrictMode: true,
   swcMinify: true,
+  basePath: '/next-beer',
+  assetPrefix: '/next-beer',
 };
 
 module.exports = nextConfig;
