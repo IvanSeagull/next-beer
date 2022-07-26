@@ -57,8 +57,8 @@ const BeerPage = () => {
             <p className={styles.tips}>{data?.abv}</p>
             <h3 className={styles.title}>Food pairing:</h3>
             <ul>
-              {data?.food_pairing.map((item) => (
-                <li>{item}</li>
+              {data?.food_pairing.map((item, index) => (
+                <li key={index}>{item}</li>
               ))}
             </ul>
           </div>
