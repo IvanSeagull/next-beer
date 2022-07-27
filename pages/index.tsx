@@ -41,7 +41,7 @@ const Home: NextPage = () => {
   );
 
   React.useEffect(() => {
-    if (value) getBeers(value);
+    getBeers(value);
   }, [value]);
 
   // initial fetching
